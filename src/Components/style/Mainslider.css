@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&family=Roboto:wght@300;400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.mainslider-section {
+  /* border: 2px solid red; */
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 99;
+}
+.mainslider-section img {
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 80vh;
+  opacity: 0.9;
+}
+.mask {
+  /* border: 2px solid yellow; */
+  height: 80vh;
+  width: 100%;
+  opacity: 0.6;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+.carousel-item {
+  transition: none !important;
+}
+.carousel-caption {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  transform: translate(-70px, -80px);
+  height: 400px;
+  width: 600px;
+  z-index: 2;
+}
+.carousel-caption h1 {
+  /* border: 2px solid red; */
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-top: 1rem;
+  text-transform: capitalize;
+}
+.carousel-caption h4 {
+  /* border: 2px solid red; */
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-top: 1rem;
+}
+.carousel-caption p {
+  /* border: 2px solid red; */
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 1.2rem;
+}
+.carousel-btn {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+.carousel-btn a {
+  /* border: 2px solid red; */
+  border-radius: 0px;
+  margin-right: 3rem;
+  height: 50px;
+  width: 150px;
+  color: #000;
+  background-color: #fff;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

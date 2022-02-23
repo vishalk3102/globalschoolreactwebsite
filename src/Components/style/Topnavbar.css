@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&family=Roboto:wght@300;400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.topnavbar-section {
+  /* border: 2px solid red; */
+  border-bottom: 2px solid black;
+  background-color: rgb(48, 47, 47);
+  color: #fff;
+}
+.number-box {
+  /* border: 2px solid black; */
+  padding-right: 40px;
+}
+.number-box li {
+  /* border: 2px solid black; */
+  font-size: 15px;
+  font-weight: bold;
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff !important;
+}
+.number-box li a {
+  color: #fff !important;
+}
+.social-icon-box {
+  /* border: 2px solid black; */
+  list-style: none;
+  text-decoration: none;
+}
+.social-icon-box .login-btn {
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+.social-icon-box .social-icon {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 5px;
+}
+.social-icon-box .social-icon a {
+  font-size: 20px;
+  /* border: 2px solid red; */
+}
+.social-icon-box .social-icon a img {
+  height: 30px;
+  width: 30px;
+}
+
+/* ****************************************** */
+
+.navbar-section {
+  /* border: 2px solid red; */
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.navbar-section ul {
+  /* border: 2px solid red; */
+  margin-left: 4rem;
+}
+.navbar-section ul .nav-item {
+  /* border: 2px solid red; */
+  margin-left: 3rem;
+}
+.navbar-section ul li a {
+  /* border: 2px solid red; */
+  list-style: none;
+  text-decoration: none;
+  color: #000;
+}
+.nav-item .dropdown-menu {
+  /* border: 2px solid black; */
+  border-radius: 0px;
+  transform: translate(-68px, 28px);
+}
+.nav-item .dropdown-menu a {
+  /* border: 2px solid black; */
+  margin-left: 7px;
+  color: #000;
+}
+
+.school-logo {
+  /* border: 2px solid red; */
+  height: 80px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.school-logo img {
+  /* border: 2px solid red; */
+  height: 70px;
+  width: 70px;
+}

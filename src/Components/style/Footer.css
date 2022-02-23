@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&family=Roboto:wght@300;400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.footer-section {
+  /* border: 2px solid red; */
+  background-color: red;
+  color: #fff;
+}
+.social-media-icon {
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.social-media-icon a {
+  /* border: 2px solid red; */
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+}
+.footer-text-box {
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 15px;
+  font-weight: 900;
+  color: #fff;
+  padding-top: 20px;
+}

@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&family=Roboto:wght@300;400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.welcome-section {
+  /* border: 2px solid red; */
+}
+.welcome-text-box {
+  /* border: 2px solid red; */
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  padding: 10px 10px;
+}
+.welcome-text-box h4 {
+  /* border: 2px solid red; */
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 12px;
+}
+.welcome-text-box h2 {
+  /* border: 2px solid red; */
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #000;
+  margin-bottom: 25px;
+}
+.welcome-text-box p {
+  /* border: 2px solid red; */
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 25px;
+  line-height: 27px;
+}
+.welcome-img-box {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+}
+.welcome-img-box img {
+  /* border: 2px solid red; */
+  height: 400px;
+  width: 600px;
+  transform: translateX(50px);
+}
+.welcome-btn {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-top: 1.5rem;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.welcome-btn a {
+  /* border: 2px solid red; */
+  border-radius: 0px;
+  margin-right: 3rem;
+  height: 50px;
+  width: 150px;
+  color: #fff;
+  background-color: rgb(255, 0, 0);
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
